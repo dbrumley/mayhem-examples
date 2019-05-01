@@ -1,0 +1,10 @@
+version: '0.6'
+project: knot
+target: knot
+baseimage: cznic/knot@sha256:ad50d26da7c7ecf279a5eb68863560229cd2d154674ccf2ce9fb4df2bb99669c
+cmds:
+-   cmd: /sbin/knotd -c /knot.conf
+    network:
+        is_client: false
+        timeout: 2.0
+        url: tcp://localhost:5300
