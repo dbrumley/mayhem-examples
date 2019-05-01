@@ -1,0 +1,7 @@
+version: '0.6'
+project: python2
+target: example
+baseimage: dbrumley/python-example:alpine
+
+cmds:
+- cmd: /usr/local/bin/python example.py @@

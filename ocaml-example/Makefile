@@ -1,4 +1,4 @@
-NAME=ocaml-example
+NAME=$(shell basename `pwd`)
 
 DOCKERS := $(wildcard Dockerfile-*)
 

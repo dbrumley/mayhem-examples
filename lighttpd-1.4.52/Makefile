@@ -1,4 +1,4 @@
-NAME=lighttpd-1.4.52
+NAME=$(shell basename `pwd`)
 
 DOCKERS := $(wildcard Dockerfile-*)
 
