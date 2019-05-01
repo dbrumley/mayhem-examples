@@ -2,7 +2,9 @@
 import sys
 
 def notify_mayhem():
-    exec'()'*7**6
+    import os
+    os.kill(os.getpid(),11)
+    #exec'()'*7**6
     
 def my_sqrt(x):
     """Computes the square root of x, using the Newton-Raphson method"""
