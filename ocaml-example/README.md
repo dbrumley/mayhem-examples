@@ -5,7 +5,7 @@ You can get Mayhem to check for an error by raising a UNIX
 signal. This is pretty hacky, but is an example of how you could get
 Mayhem (and fuzzing) to work for you.
 
-The magic is in `raise_signal.ml` inside `readline.ml`.
+The magic is in `notify_mayhem` inside `readline.ml`.
 
 Credit: from https://codegolf.stackexchange.com/questions/4399/shortest-code-that-raises-a-sigsegv
 
