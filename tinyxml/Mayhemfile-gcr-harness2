@@ -1,0 +1,7 @@
+version: '0.6'
+project: tinyxml2
+target: gcr-harness2
+baseimage: dbrumley/tinyxml
+
+cmds:
+- cmd: /mayhem/gcr-harness2 @@

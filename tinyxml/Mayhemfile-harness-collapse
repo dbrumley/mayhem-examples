@@ -1,0 +1,7 @@
+version: '0.6'
+project: tinyxml2
+target: gcr-harness-collapse
+baseimage: dbrumley/tinyxml
+
+cmds:
+- cmd: /mayhem/gcr-harness-collapse @@
