@@ -1,0 +1,26 @@
+# Mayhemfile: configuration file for testing your targetwith Mayhem
+# Format: YAML 1.1
+
+# Mayhemfile version specifier
+version: '0.6'
+
+# Project name that the target belongs to
+project: nginx
+
+# Target name (should be unique within the project)
+target: nginx
+
+# Base image to run the binary in.
+baseimage: dbrumley/nginx
+
+# Time that analysis will run for in seconds - if absent, run forever
+duration: 300
+
+# List of commands used to test the target
+cmds:
+  # Command used to start the target, "@@" is the input file
+  - cmd: /usr/sbin/nginx -p . -c nginx.conf
+    network:
+        is_client: false
+        timeout: 2.0
+        url: tcp://localhost:8080
