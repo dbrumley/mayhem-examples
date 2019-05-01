@@ -1,0 +1,11 @@
+version: '0.6'
+project: python-flask
+target: python-flask
+baseimage: dbrumley/python-flask:python2.7
+
+cmds:
+- cmd: /usr/local/bin/python app.py
+  network:
+        is_client: false
+        timeout: 1.0
+        url: tcp://localhost:80
