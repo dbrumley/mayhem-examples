@@ -1,0 +1,23 @@
+# Mayhemfile: configuration file for testing your targetwith Mayhem
+# Format: YAML 1.1
+
+# Mayhemfile version specifier
+version: '0.6'
+
+# Project name that the target belongs to
+project: imagemagick
+
+# Target name (should be unique within the project)
+target: convert
+
+# Base image to run the binary in.
+baseimage: dpokidov/imagemagick:7.0.8-40-stretch
+
+# Time that analysis will run for in seconds - if absent, run forever
+duration: 300
+
+# List of commands used to test the target
+cmds:
+
+  # Command used to start the target, "@@" is the input file
+  - cmd: /usr/local/bin/convert @@ /dev/null
