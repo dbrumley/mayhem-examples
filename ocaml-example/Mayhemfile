@@ -4,4 +4,4 @@ target: readline
 baseimage: dbrumley/ocaml-example:debian
 
 cmds:
-- cmd: /home/opam/readline @@
+- cmd: /mayhem/readline @@
