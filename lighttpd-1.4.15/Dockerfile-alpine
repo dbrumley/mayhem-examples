@@ -1,0 +1,19 @@
+FROM alpine:3.9 as builder
+RUN apk add build-base
+WORKDIR /build
+RUN wget https://download.lighttpd.net/lighttpd/releases-1.4.x/lighttpd-1.4.15.tar.gz \
+   && tar xf lighttpd-1.4.15.tar.gz \
+   && cd /build/lighttpd-1.4.15 \
+   && ./configure --without-bzip2 && make && make install \
+   && mkdir /usr/local/etc \\
+   && mkdir /www && echo "lighttpd 1.4.15 running!" > /www/index.html
+COPY lighttpd.conf /usr/local/etc
+CMD ["/usr/local/sbin/lighttpd","-D", "-f","/usr/local/etc/lighttpd.conf"]
+EXPOSE 80
+
+FROM alpine:3.9
+WORKDIR /root
+COPY --from=builder /usr/local /usr/local
+RUN mkdir /www && echo "lighttpd 1.4.15 running!" > /www/index.html
+CMD ["/usr/local/sbin/lighttpd","-D", "-f","/usr/local/etc/lighttpd.conf"]
+EXPOSE 80

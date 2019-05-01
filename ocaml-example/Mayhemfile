@@ -1,0 +1,7 @@
+version: '0.6'
+project: ocaml
+target: readline
+baseimage: dbrumley/ocaml-example:debian
+
+cmds:
+- cmd: /home/opam/readline @@
