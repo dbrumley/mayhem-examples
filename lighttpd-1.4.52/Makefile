@@ -1,12 +1,16 @@
 NAME=$(shell basename `pwd`)
 
-DOCKERS := $(wildcard Dockerfile-*)
-
+ALTDOCKERS := $(wildcard Dockerfile-*)
+TAG =
 .PHONY:  check-env
 
-all: $(DOCKERS)
+all: build $(ALTDOCKERS)
 
-$(DOCKERS): check-env
+build: check-env
+	docker build -t $(DOCKUSER)/$(NAME) .
+	docker push $(DOCKUSER)/$(NAME)
+
+$(ALTDOCKERS): check-env
 	docker build -t $(DOCKUSER)/$(NAME):$(subst Dockerfile-,,$@) -f $@ .
 	docker push $(DOCKUSER)/$(NAME):$(subst Dockerfile-,,$@)
 

@@ -1,16 +1,10 @@
-NAME=$(shell basename `pwd`)
+DOCKUSER=dbrumley
 
-DOCKERS := $(wildcard Dockerfile-*)
+SUBDIRS := $(wildcard */.)
+all: $(SUBDIRS)
+$(SUBDIRS):
+	$(MAKE) -C $@ DOCKUSER=dbrumley
 
-.PHONY:  check-env
+.PHONY: all $(SUBDIRS)
 
-all: $(DOCKERS)
-
-$(DOCKERS): check-env
-	docker build -t $(DOCKUSER)/$(NAME):$(subst Dockerfile-,,$@) -f $@ .
-	docker push $(DOCKUSER)/$(NAME):$(subst Dockerfile-,,$@)
-
-check-env:
-ifndef DOCKUSER
-	$(error DOCKUSER is undefined; needed for docker push)
-endif
+all: $(ENABLED)

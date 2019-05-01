@@ -1,7 +1,7 @@
 version: '0.6'
 project: lighttpd-1.4
-target: lighttpd-1.4-debian
-baseimage: dbrumley/lighttpd-1.4.52:debian
+target: lighttpd-1.4
+baseimage: dbrumley/lighttpd-1.4.52
 
 cmds:
 - cmd: /usr/local/sbin/lighttpd -D -f /usr/local/etc/lighttpd.conf

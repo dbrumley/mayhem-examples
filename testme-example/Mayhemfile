@@ -1,0 +1,7 @@
+version: '0.6'
+project: testme
+target: testme
+baseimage: dbrumley/testme-example
+
+cmds:
+- cmd: /mayhem/testme-v2 @@
