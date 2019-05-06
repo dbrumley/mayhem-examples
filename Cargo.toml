@@ -1,0 +1,7 @@
+[package]
+name = "badrs"
+version = "0.1.0"
+authors = ["Scott Colby <scott@forallsecure.com>"]
+edition = "2018"
+
+[dependencies]
