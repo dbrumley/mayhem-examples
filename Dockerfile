@@ -1,4 +1,4 @@
-FROM rust:1.34.1-stretch
+FROM rustlang/rust:nightly
 WORKDIR /usr/src/badrs
 COPY . .
 RUN cargo install --path .

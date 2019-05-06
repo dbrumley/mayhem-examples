@@ -1,5 +1,13 @@
-use std::fs;
-use std::{env, process::exit};
+#![feature(core_intrinsics)]
+
+use core::intrinsics;
+use std::{env, fs, panic, process::exit};
+
+fn set_panic_abort() {
+    panic::set_hook(Box::new(|_| {
+        unsafe { intrinsics::abort() };
+    }));
+}
 
 fn die(msg: String) -> ! {
     eprintln!("{}", msg);
@@ -7,6 +15,8 @@ fn die(msg: String) -> ! {
 }
 
 fn main() {
+    set_panic_abort();
+
     let args: Vec<String> = env::args().collect();
 
     if args.len() < 2 {
@@ -22,9 +32,8 @@ fn main() {
     let contents = read.unwrap();
     if contents.trim() == "secret code" || contents.trim().len() == 3 {
         println!("Uh-oh!");
-        unsafe { *(0 as *mut _) = 3 };
+        panic!();
     } else {
         println!("Good execution!");
     }
 }
-
