@@ -1,0 +1,7 @@
+version: '0.6'
+project: c-example-1
+target: app
+baseimage: dbrumley/c-example-1
+
+cmds:
+- cmd: /mayhem/app @@
