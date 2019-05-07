@@ -1,0 +1,12 @@
+version: '0.6'
+project: apache2
+target: apache2
+baseimage: httpd:2.4
+
+cmds:
+  # Command used to start the target, "@@" is the input file
+  - cmd: /usr/local/apache2/bin/httpd -D FOREGROUND
+    network:
+        is_client: false
+        timeout: 2.0
+        url: tcp://localhost:80
