@@ -1,0 +1,11 @@
+version: '0.6'
+project: dump1090
+target: dump1090-netonly
+baseimage: dbrumley/dump1090
+
+cmds:
+- cmd: /mayhem/dump1090  --net-only 
+  network:
+        is_client: false
+        timeout: 1.0
+        url: tcp://localhost:30001
