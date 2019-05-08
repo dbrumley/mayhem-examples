@@ -1,0 +1,7 @@
+version: '0.6'
+project: njs
+target: njs
+baseimage: dbrumley/njs
+
+cmds:
+- cmd: /mayhem/njs @@
