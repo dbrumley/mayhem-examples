@@ -1,0 +1,11 @@
+version: '0.6'
+project: goahead
+target: goahead
+baseimage: dbrumley/goahead
+
+cmds:
+- cmd: /usr/local/bin/goahead  --home /etc/goahead/  localhost 
+  network:
+        is_client: false
+        timeout: 1.0
+        url: tcp://localhost:80
