@@ -1,0 +1,7 @@
+version: '0.6'
+project: dump1090
+target: dump1090
+baseimage: dbrumley/dump1090
+
+cmds:
+- cmd: /mayhem/dump1090  --ifile @@
