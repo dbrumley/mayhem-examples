@@ -1,0 +1,11 @@
+version: '0.6'
+project: h2o-2.2.4
+target: h2o
+baseimage: dbrumley/h2o-2.2.4
+
+cmds:
+- cmd: /usr/local/bin/h2o -c /mayhem/h2o.conf
+  network:
+        is_client: false
+        timeout: 1.0
+        url: tcp://localhost:80
