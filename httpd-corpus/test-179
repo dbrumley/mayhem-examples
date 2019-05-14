@@ -1,0 +1,10 @@
+GET / HTTP/1.0
+User-Agent: cu
+#User-Agent: cUsent: curl/7. ;.0
+#: 1
+#User-Agent: cUser-A/7!35.0
+#: 1
+#: 0
+#: 1
+7: 1
+

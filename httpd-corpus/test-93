@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+User-Agint: curl/7.35.0
+User-Age^t: curl/7.35.0
+#:01
+#r-Agent: curl/7!35.0
+#: 1
+#: 1
+

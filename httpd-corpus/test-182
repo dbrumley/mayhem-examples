@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+User-Agent: cuUser-Agent:s/7.35.0
+F: 1
+#: 
+F: 1
+#: 1 1
+€: 
+

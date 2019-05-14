@@ -1,0 +1,6 @@
+GET B HTTP/1.1
+UserEAgUser-Agent: curl/7.35.0
+#:/1.1
+UserEAgUser-Agent:  1
+#: 1
+

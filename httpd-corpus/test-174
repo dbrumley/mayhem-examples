@@ -1,0 +1,7 @@
+GET / HTTP/1.1
+user-Agent: curl/7.35.0
+ curl/35.0
+ curl/7.37.35.0
+#: 1
+#: 1
+
