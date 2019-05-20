@@ -1,0 +1,7 @@
+version: '0.6'
+project: bash
+target: example
+baseimage: dbrumley/bash-example
+
+cmds:
+- cmd: /bin/bash /mayhem/example.sh @@
