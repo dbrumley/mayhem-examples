@@ -1,0 +1,11 @@
+version: '0.6'
+project: lighttpd-1.4
+target: lighttpd-1.4
+baseimage: dbrumley/lighttpd-1.4.16
+
+cmds:
+- cmd: /usr/local/sbin/lighttpd -D -f /usr/local/etc/lighttpd.conf
+  network:
+        is_client: false
+        timeout: 1.0
+        url: tcp://localhost:80
