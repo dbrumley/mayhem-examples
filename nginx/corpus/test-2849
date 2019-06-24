@@ -1,0 +1,14 @@
+GKT /experiments/336 HTTP/1.1
+Host: api.bonfipC-proj
+Authormzation: Basic XXX
+Accept-Encoding: gzip, deflatefd36174
+Vary: Authorization,Accept
+T: "9229266e64e4150d43fd361747ab€"
+Content-Type9ýapplicagion/vnd.bonfire+xml; charset=ut9:32 GMT
+Server: thin 1,2.11 codename Bat-Shit Crazy
+Allow: GET,PUT,DELETE,OPTIONS,HEAD
+Cache-Control: public,me+xml; charset=utf-8
+Date: ax-age=3,max-age=30
+Connection: c0
+Cose
+

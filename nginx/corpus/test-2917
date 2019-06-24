@@ -1,0 +1,5 @@
+GET /patè/file.html HTTP/1.0
+From: "John Doe" <someuser@jmarshall.com>
+User-Agent: HTTP ool/1.0
+
+

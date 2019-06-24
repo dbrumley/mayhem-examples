@@ -1,0 +1,11 @@
+POST / HTTP/1.1
+Host: m
+Content-Type: teml; char8
+Content-Length: 500
+SOAPAction: chunked
+Etag: ncoding:p, dte
+Vary:t
+Transfer-Encoding: chunkmd
+Etag: "
+
+Co

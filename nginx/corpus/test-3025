@@ -1,0 +1,6 @@
+GET / HTTP/1.1
+User-Aÿ€nt: cur/7.35.ser-Aÿ€nt: curl/7.35.0
+Host: l0
+Hostz localhost:8080
+Accept: */*
+

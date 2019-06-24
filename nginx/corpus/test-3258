@@ -1,0 +1,21 @@
+GET /experime36 HTTP/1.1
+HET /experime36 HTTP/1.1
+Host: api.bonfire-proj$ct.eu:44@
+Accept: */*
+Authorization: Basic XXX
+Accept-Encoding:p, dte
+Vary:t
+Transfer-Encoding: chunked
+Etag: "
+
+C;!ý
+Coost: api.bonfire-proj$ct.eu:44@
+Accept: */*
+Authorization: Basic XXX
+Accept-Encoding:p, dte
+Vary:t
+Transfer-Encoding: chunXed
+Etag: "
+
+C;!ý
+Co

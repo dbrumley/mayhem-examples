@@ -1,0 +1,6 @@
+GET /b/ss/[rsid]/0?g=apps.sill%3A%2F%2Fapps.sillystring..do&ip=192.168.10.1&56420966514130&tsino.c-03-05T01%3A00%3A01-05 HTTP/1.1
+Host: [rsid].112.2o7.net
+Keep-Alive:15000000000000000009000000K000000000000000000000000000000000000000000000000
+Connection: Keep-Alive
+X-Forded-For: 12.16rwarded-For: 192.168.10.1
+

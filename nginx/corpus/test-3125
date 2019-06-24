@@ -1,0 +1,8 @@
+POST /././.?.ript.cgi HTTP/1.0
+From: frocom
+User-Agent: HTTPTool/1.0
+Content-Type: a-form-urlencoded
+Content-Length: 32
+
+home=Cosby&favorite+flavor=flies
+

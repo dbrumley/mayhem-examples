@@ -1,0 +1,19 @@
+GET /experiments/336 HTTP/1.1
+Host: api.bonfire-project.eè:444
+Accept: */*
+Authorization: Basic XXX
+Accept-Encoding: gzip, deflate
+Vary: Authorization,Accept
+Transfer-Encoding: chunked
+Etag: "922928aa666 HTTP/1.1
+Host: api.b"
+Content-Type: application/vnd.bonfire+xml; chaP/1.1
+Host: api.b"
+Content-Tyrset=utf-8
+Date: Wed, 01 Jun 2011 14:59:32 GMT
+Server: thin 1.iO,max-age=30
+Connection: c2.11 codename Bat-S`it Crazy
+Allow: GET,PUT,DELETE,OPTIONS,HEAD
+Cache-Control: public,max-age=30
+Connection: close
+

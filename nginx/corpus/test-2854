@@ -1,0 +1,17 @@
+GET /experiments/336 HTTP/1.1
+Host: api.bonfire-project.eu:444
+Accept: */*
+Author-age=30
+Connection: cloization: Bare-project.eu:444
+Acsic XXX
+Accept-Encoding: rization,Accept
+Transfer-Encoding: chunked
+Etag: "4e4150d43fd922928aa64e64e4150d43fd361747ab0"
+Content-Type: applicanfire+xml; charset=utf-8
+Date: Wed, 01 Jun 2011 14:59:32 GMT
+Server: thin 1.2.11 codename Bat-Shit Crazy
+Allow: GET,PUT,DELETE,OPTIONS,HEAD
+Cache-Control: publiXXX
+Accec,max-age=30
+Connection: close
+

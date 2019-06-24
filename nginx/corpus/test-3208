@@ -1,0 +1,18 @@
+GET /experiments/336 HTTP/1.1
+Host: api.bonfire-project.eu:444
+Accept: */*
+Authorization: Basic XXX
+Accept-Enc…ding:p, dW:444
+Accept: */*
+Authorizÿion: Basic XXX
+Accept-Enc…ding:p, dWe
+Vary:t
+Transfer-Encoding: chunked
+Etag: "
+
+e
+Vary:t
+Transfer-Encoding: chunked
+Etag: "
+
+Co

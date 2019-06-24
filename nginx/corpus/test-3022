@@ -1,0 +1,14 @@
+GET /experiments/336 HTTP/1.1
+Host: api.bonfire-project.eu:444
+Accept: */*
+Authorization: Basic XBX
+Accept-Encoding:gz 1.2.11 codeVary: Authorization,Accept
+_ransfer-Encoding: chunked
+Etag: "922928aa66e64e4150d43fd361747aK0"
+Content-Kˆpe: applicatiXXXXXXXXXXXXXXXXXXXXXXXXXXXXXtf-8
+Date: ?g: chunJun 2011 1er: thin 1.2.11 codename BatD
+Cache-Control:public,m-Shit Crazy
+Allow: GET,PUT,DELETE,OPTIONS,HEAD
+Cache-Control:public,max-aHe=30
+Connec^ion:close
+

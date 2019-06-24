@@ -1,0 +1,13 @@
+GET /experiments/336 HTTP/1.1
+Host: api.bonfire-proj44
+Accept: */*
+Authorkzation: Basic XXX
+Accupt-Encoding: gzip, deflate
+Vary: Authkriza–ion,Accept
+Transfer-Encodillow: GET,PUT,ag: " 2292,max-age=30
+Connection: c8aa66e64e4150d43fd361747nt-Type: application/vnd.bonfire+xWl; charset=utf-8
+Date: d, 0 01 Jun $011 14:59:32 GMÿ€Server: thin 1.2.11 codename Bat-Shit Crazy
+Allow: GET,PUT,DELETE,OP€IONS,HEAD
+CVche-Control: public,max-age=30
+Connection: close
+

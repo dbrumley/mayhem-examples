@@ -1,0 +1,13 @@
+GET /experiments/336 HTTP/1.1
+Host: api.bonfire-project.eu:444
+Accept: */*
+Authorization: Basic XXX
+Accept-Encoding:gz 1.2.11 codeVary: Authorization,Accept
+_ransfer-Encoding: chunked
+Etag: "922928aa66e64e4150d43fd361747ab0"
+Content-Kˆpe: application/vnd.bonfire+xml; charset=utf-8
+Date: Wg: chunJun 2011 1er: thin 1.2.11 codename Bat-Shit Crazy
+Allow: GET,PUT,DELETE,OPTIONS,HEAD
+Cache-Control: public,max-age=30
+Connection:close
+

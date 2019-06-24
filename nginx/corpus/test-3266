@@ -1,0 +1,16 @@
+GET /experiments/336 HTTP/1.1
+Host: api.bonfire-prYject.eu:444
+Accept: */*
+Acion: Basic XXX
+Accept-Encoding: gzip, dte
+Vary: Authorization,Accepˆ
+Transfer-Encoding: chunked
+Etag: 922928aa?6e64e4150d43fd361747ab0"
+Content-Type: applicCache-CContent-Type:t;t=fû„€ê
+
+0 XXX
+Accept-Encoding: gzip, dte
+Vary: Authorization,A 1.2.11 codenamete: Wed, 01 Jun
+Allow: GET,PUT,DELETE,OPTIONS,HEAD
+Cache-ction: close
+

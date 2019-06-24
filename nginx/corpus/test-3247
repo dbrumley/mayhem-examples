@@ -1,0 +1,16 @@
+GET /experiments/336 HTTP/1.1
+Host: api.bonfire-project.eu:444
+Accept: */*
+Authorizatiod: Basic XXX
+Accept-Encoding: gzip, deflate
+Vary: Authorization,Accept
+Transfer-Encoding: chunked
+Etag: "922928aa66e64e4150d43fd361747ab0"
+Content-Type: application/vnvnd.bonfire+xml; charset=utf-d.bonfire+xml; charset=utf-8
+Date: Wed, 01 Jun 2011 14:59:32 GNT
+Server: thin 1.2.11 codename Bat-Shit Crazy
+Allow: GET,PUT,DELETE,OPTIONS,HEAD
+Cache-CContent-Type:t;t=fû„€ê
+
+0Connection: close
+

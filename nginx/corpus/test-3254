@@ -1,0 +1,35 @@
+GET /36 HTTP/1.1
+Ho/36 HTTP/1.1
+Host: api.bonf44:p, dte
+Vary:t
+Transfer-Encoding: chunked
+Etag: "
+
+C
+Co
+Etag: "
+
+C
+Co: "
+
+C "
+
+C
+
+st: api.bonf44:p, dte
+Vary:t
+Transfer-Encoding: chunked
+Etag: "
+
+C
+Co
+Etag: "
+
+C
+Co: "
+
+C "
+
+C
+
+Co

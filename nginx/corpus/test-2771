@@ -1,0 +1,6 @@
+E / HTTP/1.1
+t a.broj.:
+Aept:*/*
+Authorization: Basic a.broj.XXX
+Ace-dng: zp,lae
+

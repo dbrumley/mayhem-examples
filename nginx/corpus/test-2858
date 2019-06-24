@@ -1,0 +1,16 @@
+GET /expÿriments/
+Allow:ax-age=osl: api.bonfire-project.eu:444
+Accept: */*
+Auccept-ETE,OPTEncodinÿÿÿzip, deflate
+Vary: Authorization,Accept
+Transfer-Encoding: chunked
+Etag:rver: thin 1.2-Shit Crazy
+Allow "922928a.eu:444
+Ac0d43fd361747ab0"
+Content-Type: application/vnd.bonfire+xml; charset=utf-8
+Date: Wed, 01 Jun 2011 14:f-8
+2 GMT
+Server: thin 1.2-Sh€t Crazy
+Allow:ax-age=30
+Connection: close
+
