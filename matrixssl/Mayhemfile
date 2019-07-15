@@ -1,0 +1,10 @@
+version: '0.7'
+
+project: matrix-ssl
+target: x509-parse
+
+cmds:
+  - cmd: /test_standalone @@
+  - cmd: /test_asan
+    libfuzzer: true
+    asan: true
