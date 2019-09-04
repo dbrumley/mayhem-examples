@@ -131,8 +131,8 @@ fi
 install_cert
 if [[ $? -eq 0 ]]; then
     echo
-    echo "Congratulations. You can now log into Docker with: "
-    echo "$ docker login $hostname"
+    echo "Congratulations. You can now log into your Mayhem Docker repository with: "
+    echo "$ docker login -u <USERNAME> -p <API_TOKEN> <MAYHEM_HOST>:5000"
 fi
 
 exit $?
