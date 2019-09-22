@@ -1,4 +1,4 @@
-FROM debian:stable-slim as builder
+FROM debian:10-slim as builder
 RUN apt-get update && apt-get install -y build-essential wget 
 WORKDIR /build
 RUN wget https://download.lighttpd.net/lighttpd/releases-1.4.x/lighttpd-1.4.15.tar.gz \
@@ -10,8 +10,7 @@ COPY lighttpd.conf /usr/local/etc
 CMD ["/usr/local/sbin/lighttpd","-D", "-f","/usr/local/etc/lighttpd.conf"]
 EXPOSE 80
 
-FROM debian:stable-slim
-RUN apt-get update && apt-get install libc6-dbg
+FROM debian:10-slim
 WORKDIR /root
 COPY --from=builder /usr/local /usr/local
 RUN mkdir /www && echo "lighttpd 1.4.15 running!" > /www/index.html
