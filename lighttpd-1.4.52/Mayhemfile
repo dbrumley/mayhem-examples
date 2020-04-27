@@ -1,7 +1,8 @@
-version: '0.6'
+version: '1.3'
 project: lighttpd-1-4
 target: lighttpd-1-4
 baseimage: dbrumley/lighttpd-1.4.52
+advanced_triage: true
 
 cmds:
 - cmd: /usr/local/sbin/lighttpd -D -f /usr/local/etc/lighttpd.conf
