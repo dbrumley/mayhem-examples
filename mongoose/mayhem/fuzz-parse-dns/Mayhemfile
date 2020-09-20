@@ -1,0 +1,8 @@
+version: '1.6'
+project: mongoose
+target: fuzz-parse-dns
+baseimage: dbrumley/mongoose
+cmds:
+-   cmd: /build/src/fuzz-parse-dns
+    libfuzzer: true
+    sanitizer: true
