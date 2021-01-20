@@ -1,0 +1,13 @@
+version: '1.9'
+project: lighttpd
+target: lighttpd
+baseimage: demo.forallsecure.com:5000/dbrumley/lighttpd:vulnerable
+advanced_triage: true
+duration: 120
+
+cmds:
+- cmd: /usr/local/sbin/lighttpd -D -f /usr/local/etc/lighttpd.conf
+  network:
+        is_client: false
+        timeout: 5.0
+        url: tcp://localhost:80
