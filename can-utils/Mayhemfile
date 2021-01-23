@@ -1,0 +1,9 @@
+version: '1.9'
+project: can-utils
+target: parse-canframe
+baseimage: demo.forallsecure.com:5000/dbrumley/canutils
+
+cmds:
+- cmd: /build/can-utils/fuzz
+  libfuzzer: true
+  sanitizer: true
