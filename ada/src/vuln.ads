@@ -1,3 +1,7 @@
+-- This is a simplified ADA example.  
+-- Ada supports afl++. This is an example to check binary-only.
+-- See https://blog.adacore.com/running-american-fuzzy-lop-on-your-ada-code
+-- https://blog.adacore.com/advanced-fuzz-testing-with-aflplusplus-3-00
 with Ada.Text_IO; use Ada.Text_IO;
 with Ada.Assertions;
 with GNAT.Exception_Actions;
