@@ -1,0 +1,9 @@
+version: '1.9'
+project: ada
+target: vuln
+baseimage: demo.forallsecure.com:5000/dbrumley/ada:latest
+advanced_triage: true
+duration: 120
+
+cmds:
+- cmd: /src/vuln @@
