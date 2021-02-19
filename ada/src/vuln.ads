@@ -11,11 +11,15 @@ procedure Fuzzing_Example is
    Filename : aliased String := Ada.Command_Line.Argument(1);
    procedure Check_Secret (Password : Unbounded_String) is
      Fuzz : Unbounded_String;
+     Zero : Integer := 0;
+     One : Integer := 1;
+     Answer : Integer := 0;
    begin
      Fuzz := To_Unbounded_String("fuzz");
      if Fuzz = Input then
         Put_Line ("Fuzz Found!");
-        raise Ada.Assertions.Assertion_Error;
+        -- raise Ada.Assertions.Assertion_Error; also works.
+        Answer := One / Zero;
      else
         Put_Line ("Not Found!");
      end if;
