@@ -1,0 +1,8 @@
+version: '1.9'
+project: ebu
+target: libbw64
+baseimage: dbrumley/libbw64:latest
+advanced_triage: true
+
+cmds:
+- cmd: /libbw64/libbw64/build/examples/bw64_read_write @@ /dev/null
