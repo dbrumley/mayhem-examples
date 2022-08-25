@@ -14,5 +14,7 @@ FROM debian:10-slim
 WORKDIR /root
 COPY --from=builder /usr/local /usr/local
 RUN mkdir /www && echo "lighttpd 1.4.15 running!" > /www/index.html
+COPY corpus /corpus
+COPY testsuite /testsuite
 CMD ["/usr/local/sbin/lighttpd","-D", "-f","/usr/local/etc/lighttpd.conf"]
 EXPOSE 80
